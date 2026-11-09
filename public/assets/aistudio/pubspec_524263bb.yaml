@@ -1,0 +1,28 @@
+name: daily_commute
+description: Real-time vehicle tracking application.
+publish_to: 'none'
+version: 0.1.0+1
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  go_router: ^14.2.0
+  supabase_flutter: ^2.6.0
+  google_maps_flutter: ^2.6.0
+  geolocator: ^13.0.1
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.2.2
+  flutter_map: ^8.3.2
+  latlong2: ^0.10.1
+  google_fonts: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
